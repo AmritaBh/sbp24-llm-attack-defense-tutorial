@@ -1,4 +1,4 @@
-# sbp24-llm-attack-defense-tutorial
+# Tutorial Materials: Defending Against Generative AI Threats in NLP
 Materials and paper list for the SBP-BRiMS 2024 tutorial: "Defending Against Generative AI Threats in NLP". 
 
 Tutorial authors and organizers:
@@ -10,10 +10,10 @@ Tutorial authors and organizers:
 
 
 # Paper and Resource List 
-:exclamation::exclamation: (being updated, please star/watch this repo and check back again soon!) :exclamation::exclamation:
+:exclamation: (Will be periodically updated. Please star or watch this repo to get notified of updates!)
 
 
-## Introduction to Generative AI
+## :books: Introduction to Generative AI
 
 1. Overview paper: Generative AI [[paper link]](https://arxiv.org/pdf/2309.07930)
 2. Generative AI vs. Discriminative AI [[blogpost link]](https://www.turing.com/kb/generative-models-vs-discriminative-models-for-deep-learning)
@@ -23,7 +23,7 @@ Tutorial authors and organizers:
 6. Examples of AI Video Generators [[list + blogpost]](https://zapier.com/blog/best-ai-video-generator/)
 7. Examples of open-source AI Video Generators: [[CogVideo]](https://github.com/THUDM/CogVideo) , [[Text2Video-Zero]](https://github.com/Picsart-AI-Research/Text2Video-Zero) , [[Open-Sora]](https://github.com/hpcaitech/Open-Sora)
 
-## Language Modeling and LLMs 
+## :books: Language Modeling and LLMs 
 
 ### History 
 
@@ -50,7 +50,7 @@ Tutorial authors and organizers:
 4. LM Sys Chatbot Arena Leaderboard on Huggingface [[paper link]](https://huggingface.co/spaces/lmsys/chatbot-arena-leaderboard)
 5. Cool Github Repo with LLM Evaluation Benchmark resources [[github repo]](https://github.com/leobeeson/llm_benchmarks) 
 
-## LLM Threats
+## :books: LLM Threats
 
 ### Part 1: Attacks on LLMs
 
@@ -69,7 +69,7 @@ Tutorial authors and organizers:
 3. Can LLM-generated Misinformation be Detected? [[paper link]](https://arxiv.org/pdf/2309.13788)
 4. The Looming Threat of Fake and LLM-generated LinkedIn Profiles: Challenges and Opportunities for Detection and Prevention [[paper link]](https://dl.acm.org/doi/pdf/10.1145/3603163.3609064)
 
-## LLM Defenses and Safety
+## :books: LLM Defenses and Safety
 
 ### Tools
 
@@ -88,6 +88,9 @@ Tutorial authors and organizers:
 3. AEGIS from NVIDIA
 
 - AEGIS: Online Adaptive AI Content Safety Moderation with Ensemble of LLM Experts [[paper]](https://arxiv.org/pdf/2404.05993)
+- AEGIS Dataset [[dataset on higgingface]](https://huggingface.co/datasets/nvidia/Aegis-AI-Content-Safety-Dataset-1.0)
+- AEGIS Defensive model [[model on huggingface]](https://huggingface.co/nvidia/Aegis-AI-Content-Safety-LlamaGuard-Defensive-1.0)
+- AEGIS Permissive model [[model on huggingface]](https://huggingface.co/nvidia/Aegis-AI-Content-Safety-LlamaGuard-Permissive-1.0) 
 
 
 
@@ -97,7 +100,7 @@ Tutorial authors and organizers:
 2. Certifying LLM Safety against Adversarial Prompting [[paper link]](https://arxiv.org/pdf/2309.02705)
 3. Towards Improving Adversarial Training of NLP Models [[paper link]](https://arxiv.org/pdf/2109.00544)
 4. Adversarial Training for Large Neural Language Models [[paper link]](https://arxiv.org/pdf/2004.08994)
-5. 
+5. Adversarial Text Purification: A Large Language Model Approach for Defense [[paper link]](https://dl.acm.org/doi/abs/10.1007/978-981-97-2262-4_6)
 
 ### Model Editing and Parameter-efficent methods
 
@@ -110,7 +113,7 @@ Tutorial authors and organizers:
 7. Steering Llama 2 via Contrastive Activation Addition [[paper link]](https://arxiv.org/pdf/2312.06681)
 8. Safe LoRA: the Silver Lining of Reducing Safety Risks when Fine-tuning Large Language Models [[paper link]](https://arxiv.org/pdf/2405.16833v1)
 9. What Makes and Breaks Safety Fine-tuning? A Mechanistic Study [[paper link]](https://arxiv.org/pdf/2407.10264)
-10. 
+
 
 ### Decoding-time methods
 
@@ -118,3 +121,7 @@ Tutorial authors and organizers:
 2. Parameter-Efficient Detoxification with Contrastive Decoding [[paper link]](https://arxiv.org/pdf/2401.06947)
 3. Keeping LLMs Aligned After Fine-tuning: The Crucial Role of Prompt Templates [[paper link]](https://arxiv.org/pdf/2402.18540)
 
+
+## Contact
+
+For any questions, feedback, comments, or just to say hi, contact Amrita at [abhatt43@asu.edu](abhatt43@asu.edu).
